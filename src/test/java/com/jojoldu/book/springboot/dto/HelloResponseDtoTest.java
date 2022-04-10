@@ -2,7 +2,8 @@ package com.jojoldu.book.springboot.dto;
 
 
 import com.jojoldu.book.springboot.web.dto.HelloResponseDto;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
