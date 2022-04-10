@@ -15,6 +15,21 @@ spring:
       ddl-auto: update
       format_sql: true
 
+  profiles:
+    include: oauth
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId: test
+            clientName: test
+            scope:
+              - profile
+              - email
+
+
 #logging:
 #  level:
 #    org.hibernate.SQL: debug
